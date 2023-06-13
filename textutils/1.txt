@@ -1,0 +1,2 @@
+Hello this is file read method 
+1.txt exists in file directory

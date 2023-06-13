@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remove Punctuations</title>
+</head>
+<body>
+This is the template index.html file i am showing
+
+<!--<h4>-->
+<!--    This is the template index.html file showing how to pas variable into template using dictionary-->
+
+<!--</h4>-->
+<!--&lt;!&ndash;#here name and place coming from views.py file from function index0 from dictionary&ndash;&gt;-->
+<!--     <p>-->
+<!--        This is {{ name }} and i am from {{ Place }}-->
+<!--    </p>-->
+
+<h2>This is the Text-Analyzer</h2>
+<form action='/analyze' method='get'>
+
+   <textarea name='text' style="width: 719px; height: 95px;"></textarea><br><br>
+    <input type="checkbox" name="removepunc"> Remove Punctuations &nbsp&nbsp&nbsp
+    <input type="checkbox" name="fullcap"> UPPER CASE &nbsp&nbsp&nbsp
+    <input type="checkbox" name="nlr">New-Line Remover &nbsp&nbsp&nbsp
+    <input type="checkbox" name="ers">Extra-Space Remover &nbsp&nbsp&nbsp
+    <input type="checkbox" name="cc">Character-Counter <br><br>
+    <button type="submit">A N A L Y Z E R</button>
+
+</form>
+</body>
+</html>
